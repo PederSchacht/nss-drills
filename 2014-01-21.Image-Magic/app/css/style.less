@@ -1,0 +1,24 @@
+@evencolor: pink;
+@oddcolor: blue;
+
+body{
+  background-color:#91ab99;
+}
+
+#container img:nth-child(2n){
+  border:10px ridge @evencolor;
+  border-radius:4px;
+}
+
+#container img:nth-child(2n-1){
+  border:10px ridge @oddcolor;
+  border-radius:4px;
+}
+
+img{
+  height:200px;
+  width:200px;
+  background-size:cover;
+  margin:10px;
+}
+
