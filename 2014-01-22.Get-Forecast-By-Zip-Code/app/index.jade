@@ -1,0 +1,17 @@
+doctype html
+html(lang='en')
+  head
+    meta(charset='utf-8')
+    title Get Forecast By Zip Code
+    link(rel='stylesheet', href='/css/normalize.css')
+    link(rel='stylesheet', href='/css/style.css')
+    script(src='/js/vendor/jquery.js')
+    script(src='/js/source/main.js')
+  body
+    #controls1
+      input#zip(type='text', autofocus=true, placeholder='Zip Code')
+      button#add-zip Add Zip Code
+    #controls2
+      select#zipCode
+      button#getForecast Get Forecast
+
