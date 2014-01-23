@@ -14,7 +14,7 @@
   }
 
   function clickGetForecast(){
-    var zip = $('#zip').val();
+    var zip = $('#zipCode').val();
     var forecast = 'http://api.wunderground.com/api/34e6c01832cdf755/forecast/q/'+zip+'.json?callback=?';
     $.getJSON(forecast, receive);
   }
